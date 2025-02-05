@@ -40,12 +40,10 @@ if b == 0:
     elif c == 2:
         print(a[c])
         print("You win")
-    elif c == 0:
+    else:
         print(a[c])
         print("It's a draw")
-    else:
-        print("You typed an invalid number. You lose!")
-if b == 1:
+elif b == 1:
     print(a[b])
     print("Computer chose:")
     if c == 2:
@@ -54,12 +52,10 @@ if b == 1:
     elif c == 0:
         print(a[c])
         print("You win")
-    elif c == 1:
+    else:
         print(a[c])
         print("It's a draw")
-    else:
-        print("You typed an invalid number. You lose!")
-if b ==2:
+elif b ==2:
     print(a[b])
     print("Computer chose:")
     if c == 0:
@@ -68,8 +64,8 @@ if b ==2:
     elif c == 1:
         print(a[c])
         print("You win")
-    elif c == 2:
+    else:
         print(a[c])
         print("It's a draw")
-    else:
-        print("You typed an invalid number. You lose!")
+else:
+    print("You typed an invalid number. You lose!")
